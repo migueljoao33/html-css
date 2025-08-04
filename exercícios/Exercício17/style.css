@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, rgb(226, 221, 213), rgb(130, 129, 125));
+}
+
+p {
+    color: rgb(214, 254, 217);
+    text-indent: 30px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(237, 237, 237);
+}
+
+h3 {
+    color: rgb(180, 219, 121);
+}
+
+h1 {
+text-align: center;
+color: rgb(226, 226, 226);
+}
+
+main {
+    background-color: rgb(182, 190, 166);
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+video {
+    border-radius: 10px;
+}
+
+button {
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        transition: 0.5s ease; /* Adiciona uma transição suave */
+      }
+      
+      button:hover {
+        background-color: rgb(101, 99, 99); /* Cor de fundo quando o mouse passa por cima */
+      }

@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+}
+
+main {
+    background-color: rgb(106, 171, 246);
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 10px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            margin: auto;
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        th {
+            background-color: gray;
+            border-radius: 5px 5px 0px 0px;
+            position: sticky;
+            top: 0;
+        }
+
+        .d {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        .e {
+            border-radius: 0px 5px 0px 0px;
+        }
+
+        .em {
+            border-radius: 0px 0px 0px 5px;
+        }
+
+        .emi {
+            border-radius: 0px 0px 5px 0px;
+        }
+
+        .num {
+            text-align: center;
+            width: 90px;
+        }
+
+        div {
+            text-align: center;
+            margin: 10px;
+        }
+        
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        img {
+            padding: 30px;
+        }
+
+        .d, .e {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        .container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Uso de tabelas grandes</h1>
+    <div class="container">
+        <table>
+            <caption>População das Unidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="d">Estado</th>
+                    <th scope="col" class="e">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">17 264 943</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="em">Total de habitantes</th>
+                    <th class="emi" class="num">000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

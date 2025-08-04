@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>cadastro</title>
+    <style>
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+  <body>
+    <h1>Teste de formulário</h1>
+    <form action="" method="get">
+      <p>
+        <label for="iusu">usuário</label>
+        <input type="text" name="iusu" id="iusu" />
+      </p>
+      <p>
+        <label for="isen">senha:</label>
+        <input type="password" name="isen" id="isen" required />
+      </p>
+      <p>
+          <label for="imes">Período Letivo</label>
+          <input type="month" name="imes" id="imes" value="2010-07">
+      </p>
+      <label for="idata">data da prova</label>
+      <input value="2014-03-23" type="date" name="idata" id="idata">
+      <p>
+        <p>
+            <label for="ihorario">horario da prova</label>
+            <input value="" type="time" name="ihorario" id="ihorario">
+        </p>
+        <label for="imedia">media</label>
+        <input type="number" name="imedia" id="imedia" placeholder="0 a 10" value="5" min="0" max="10" step="0.1" required/>
+      </p>
+      <input type="reset" value="limpar" />
+        <form action="cadastro.html"><input type="submit" value="cadastre-se" /></form>
+    </form>
+  </body>
+</html>

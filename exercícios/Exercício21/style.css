@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    color: rgb(80, 77, 77);
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+main {
+    background-color: lightgray;
+
+    border: 10px gray;
+    border-radius: 10px;
+
+    padding: 10px 10px 10px 10px;
+    /*ordem = top right bottom left
+    e se quiser centralizar as duas "padding"(preenchimentos) que no caso é direita e esquerda é auto e auto
+    */
+    width: auto;
+    height: auto;
+    /*
+    == 
+    size
+    */
+}
+
+a {
+    border-width: 10px;
+    border: solid; 
+    color: black;
+    /*
+    ==
+    */
+    border: 10px solid black;
+}

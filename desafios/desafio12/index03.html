@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>des13p3</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font: normal 25pt Arial;
+            position: relative;
+        }
+
+        td:hover {
+            color: white;
+            background-color: black;
+        }
+
+        th:hover {
+            color: black;
+            background-color: white;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        th {
+            color: white;
+            background-color: black;
+            border: 1px solid gray;
+            padding: 0px 50px 0px 50px;
+            position: sticky;
+            top: 0;
+        }
+
+        .border1 {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        .border2 {
+            border-radius: 0px 5px 0px 0px;
+        }
+
+        .border3 {
+            border-radius: 0px 0px 5px 0px;
+        }
+
+        .border4 {
+            border-radius: 0px 0px 0px 5px;
+        }
+
+        .naf {
+            padding: 10px 130px 10px 130px;
+        }
+
+        p {
+            margin: auto;
+            text-align: center;
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: 2vw;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th scope="col" class="border1">Grupos</th>
+            <th scope="col" class="naf">Nomes</th>
+            <th scope="colgroup" colspan="3" class="border2" class="naf">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cládia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnézia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lorenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Drive</td>
+                <td>Toy Story</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="divp">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ut fugit incidunt saepe placeat ea minus ipsa deleniti, vel adipisci alias, quaerat dignissimos aliquid! Temporibus incidunt accusamus accusantium officiis vel.
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ut fugit incidunt saepe placeat ea minus ipsa deleniti, vel adipisci alias, quaerat dignissimos aliquid! Temporibus incidunt accusamus accusantium officiis vel.
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ut fugit incidunt saepe placeat ea minus ipsa deleniti, vel adipisci alias, quaerat dignissimos aliquid! Temporibus incidunt accusamus accusantium officiis vel.
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ut fugit incidunt saepe placeat ea minus ipsa deleniti, vel adipisci alias, quaerat dignissimos aliquid! Temporibus incidunt accusamus accusantium officiis vel.
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ut fugit incidunt saepe placeat ea minus ipsa deleniti, vel adipisci alias, quaerat dignissimos aliquid! Temporibus incidunt accusamus accusantium officiis vel.
+        </p>
+    </div>
+</body>
+</html>

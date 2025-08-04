@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>des13p2</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font: normal 25pt Arial;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px 50px 5px 50px;
+        }
+
+        th {
+            color: white;
+            background-color: black;
+            border: 1px solid gray;
+            padding: 5px 50px 5px 50px;
+        }
+
+        .border1 {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        .border2 {
+            border-radius: 0px 5px 0px 0px;
+        }
+
+        .border3 {
+            border-radius: 0px 0px 5px 0px;
+        }
+
+        .border4 {
+            border-radius: 0px 0px 0px 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th class="border1"></th>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>d</th>
+            <th class="border2">e</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td colspan="4">a</td>
+                <td rowspan="4">b</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td rowspan="4">c</td>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>g</td>
+                <td>h</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>j</td>
+                <td>l</td>
+                <td>m</td>
+            </tr>
+            <tr>
+                <th class="border4">5</th>
+                <td  class="border3" colspan="4">n</td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

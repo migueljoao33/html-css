@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iframe02</title>
+    <style>
+        body {
+            font-family: system-ui, Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 300px;
+            border: 5px solid black;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .frame {
+            width: 176vh;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>iframe02</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Ut dolorem aperiam error explicabo vero deleniti ullam <br> 
+        molestiae repudiandae! Adipisci explicabo quo earum pariatur <br> 
+        excepturi optio. Corrupti voluptas quo deleniti quam.
+    </p>
+    <ul>
+        <li><a href="pags/pag1.html" target="frame">primeira pag</a></li>
+        <li><a href="pags/pag2.html" target="frame">segunda pag</a></li>
+        <li><a href="pags/pag3.html" target="frame">terceira pag</a></li>
+    </ul>
+    <div class="center">
+        <iframe class="frame" name="frame" srcdoc="
+        <h1>oi</h1>
+            <p>        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Ut dolorem aperiam error explicabo vero deleniti ullam <br> 
+                molestiae repudiandae! Adipisci explicabo quo earum pariatur <br> 
+                excepturi optio. Corrupti voluptas quo deleniti quam.
+            </p>"
+        frameborder="0">
+        <p>
+            Infelizmente o seu navegador nao é compatível com isto
+        </p>
+    </iframe> 
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Ut dolorem aperiam error explicabo vero deleniti ullam <br> 
+        molestiae repudiandae! Adipisci explicabo quo earum pariatur <br> 
+        excepturi optio. Corrupti voluptas quo deleniti quam.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Ut dolorem aperiam error explicabo vero deleniti ullam <br> 
+        molestiae repudiandae! Adipisci explicabo quo earum pariatur <br> 
+        excepturi optio. Corrupti voluptas quo deleniti quam.
+    </p>
+    <div class="center">
+        <iframe class="frame" name="frame" srcdoc="
+        <h1>oi</h1>
+            <p>        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Ut dolorem aperiam error explicabo vero deleniti ullam <br> 
+                molestiae repudiandae! Adipisci explicabo quo earum pariatur <br> 
+                excepturi optio. Corrupti voluptas quo deleniti quam.
+            </p>
+            <img src='Github Header.png'>"
+        frameborder="0">
+        <p>
+            Infelizmente o seu navegador nao é compatível com isto
+        </p>
+    </iframe> 
+
+</body>
+</html>

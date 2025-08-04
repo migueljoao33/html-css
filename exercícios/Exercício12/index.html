@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mídias em html5</title>
+</head>
+
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        Tente abrir este site em vários dispositivos diferentes
+        ou simplismente aumente ou diminua o tamanho do seu
+        navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="githubp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="github.png" type="image/png">
+        <img src="github..jpg" alt="github.g">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>
+        Vamos aprender a reproduzir áudios em html5.
+    </p>
+    <abbr title="Music">
+        <audio src="/Users/joaomiguel/Downloads/jungle-waves-drumampbass-electronic-inspiring-promo-345013.mp3" autoplay
+            controls>
+        </audio>
+    </abbr>
+    <p>
+        Seu áudio não está funcionando ?
+    </p>
+    clique aqui para <a
+        href="/Users/joaomiguel/Downloads/jungle-waves-drumampbass-electronic-inspiring-promo-345013.mp3"
+        target="_blank" rel="next"> acessar pag 2
+    </a>
+    <p>E aqui para <a href="" target="_blank" rel="next">download</a></p>
+    <video controls poster="githubp.png">
+        <source src="html2.mp4" type="video/mp4">
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OmPAD9hU0zU?si=lSiX3On_9lJnX1Yy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+
+</html>
