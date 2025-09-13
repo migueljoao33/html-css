@@ -17,14 +17,14 @@
 </head>
   <body>
     <h1>Teste de formulário</h1>
-    <form action="" method="get">
+    <form action="" method="get" autocomplete="on">
       <p>
         <label for="iusu">usuário</label>
-        <input type="text" name="iusu" id="iusu" />
+        <input type="text" name="iusu" id="iusu" minlength="5" maxlength="15" size="11" autocomplete="username"/>
       </p>
       <p>
         <label for="isen">senha:</label>
-        <input type="password" name="isen" id="isen" required />
+        <input type="password" name="isen" id="isen" required minlength="8" size="8" autocomplete="new-password"/>
       </p>
       <p>
           <label for="imes">Período Letivo</label>
