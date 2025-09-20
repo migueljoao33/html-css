@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>formulario</title>
-</head>
-<body>
+    <style>
+        fieldset {
+            margin: auto 800px auto auto;
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
     <h1>teste de formulario</h1>
     <form action="cadastro.html" method="get">
-        <p>
-            <label for="imail">e-mail</label>
-            <input type="email" name="imail" id="imail">
-        </p>
+      <fieldset>
+        <legend>dados</legend>
+          <p>
+            <div>
+                <label for="imail">e-mail</label>
+                <input
+                  type="email"
+                  name="imail"
+                  id="imail"
+                  autocomplete="email"
+                  required
+                  placeholder="nome@email.com"
+                />
+                          </p>
+                          <p>
+                <input type="tel" name="tel" id="tel" autocomplete="tel"
+                pattern="\d(\d{2}\){4,5}-\d{4}$" placeholder="xx xxxx-xxxx" required/>
+                          </p>
+                          <p>
+                <input type="submit" value="enviar" />
+                <input type="reset" value="limpar" />
+                          </p>
+            </div>
+      </fieldset>
     </form>
-</body>
+  </body>
 </html>
