@@ -8,8 +8,21 @@
 <body>
     <h1>Exemplos de fromulario</h1>
     <form action="cadastro.html" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="checkbox" name="sxmas" id="sxmas"> <label for="sxmas">homem</label> <br>
+            <input type="checkbox" name="sxfem" id="sxfem"> <label for="sxmul">mulher</label>
+        </fieldset>
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="esfut"> <label for="esfut">futebol</label> <br>
+            <input type="checkbox" name="esbas" id="esbas"> <label for="esbas" checked>basquete</label> <br>
+            <input type="checkbox" name="esnat" id="esnat"> natacao <br>
+            <input type="checkbox" name="esten" id="esten"> tenis
+        </fieldset>
         <p>
-            <input type="reset" value="">
+            <input type="reset" value="limpar">
+            <input type="submit" value="enviar">
         </p>
     </form>
 </body>
