@@ -1,5 +1,7 @@
 /*para dispositivos como celular deitado em computador (landscape)*/
 
 body {
+    background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(imagens/cev-landscape.jpg);
 }
