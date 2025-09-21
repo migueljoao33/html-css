@@ -1,5 +1,5 @@
 /*para dispositivos como celular em pé (portrait)*/
 
 body {
-    background-color: red;
+    background-image: url(imagens/cev-portrait.jpg);
 }
