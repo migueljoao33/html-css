@@ -1,1 +1,5 @@
 /*para dispositivos como celular deitado em computador (landscape)*/
+
+body {
+    background-color: orange;
+}
