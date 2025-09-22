@@ -19,6 +19,10 @@ grandes telas: acima de 1200px
     #print {
         display: block;
     }
+
+    main::after {
+        content: 'esse site foi impresso';
+    }
 }
 
 @media screen and (orientation: portrait) {
