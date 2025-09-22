@@ -16,20 +16,38 @@ grandes telas: acima de 1200px
     
 }
 
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url(../imagens/back-phone.jpg);
+    }
+    #phone {
+        display: block;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) { /* tablet */
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
+    #tablet {
+    display: block;
+}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) { /* desktop */
         body {
         background-image: url(../imagens/back-pc.jpg);
     }
+            #pc {
+    display: block;
+}
 }
 
 @media screen and (min-width: 1200px) { /* grandes telas */
     body {
         background-image: url(../imagens/back-tv.jpg);
-    }
 }
+        #tv {
+    display: block;
+}
+    }
