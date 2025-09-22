@@ -13,7 +13,12 @@ grandes telas: acima de 1200px
 */
 
 @media print { /* impressão */
-    
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+    #print {
+        display: block;
+    }
 }
 
 @media screen and (orientation: portrait) {
