@@ -21,3 +21,12 @@ grandes telas: acima de 1200px
         display: block;
     }
 }
+
+li {
+    text-align: center;
+    display: inline-block;
+}
+
+menu {
+    text-align: center;
+}
