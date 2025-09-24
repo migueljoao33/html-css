@@ -18,6 +18,7 @@ grandes telas: acima de 1200px
     }
 
     menu {
+        text-align: left;
         display: block;
     }
 }
