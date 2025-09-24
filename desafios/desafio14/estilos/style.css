@@ -38,3 +38,8 @@ main {
     border-radius: 20px;
 }
 
+.imagens {
+    background: #5f2c82 url(../imagens/White\ Concrete\ Building.jpg) no-repeat;
+    background-size: cover;
+    width: 300px;
+}
