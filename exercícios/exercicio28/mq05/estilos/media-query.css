@@ -12,7 +12,7 @@ grandes telas: acima de 1200px
 
 */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     #burger {
         display: none;
     }
@@ -27,6 +27,6 @@ li {
     display: inline-block;
 }
 
-menu {
-    text-align: center;
+main {
+    width: 768px;
 }
