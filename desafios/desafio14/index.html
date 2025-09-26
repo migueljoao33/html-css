@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person_book" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key_vertical" />
     <title>login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
@@ -16,8 +18,19 @@
             <div class="formulario">
                 <h1>login</h1>
                 <p>
-                    Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
-                </p>                
+                    Welcome back. Log in to access your account and configure your environment.
+                </p>
+                <form action="cadastro.html" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person_book</span>
+                        <input type="email" name="email" id="email" placeholder="your e-mail">
+                        <label for="email">login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key_vertical</span>
+                        <input type="password" name="password" id="password" placeholder="your password">
+                        <label for="password">senha</label>
+                    </div>
                 </form>
             </div>
         </section>
