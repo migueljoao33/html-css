@@ -44,7 +44,7 @@ p {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 12px rgba(23, 23, 23, 0.743);
 
@@ -62,4 +62,19 @@ p {
 .formulario {
     display: block;
     padding: 10px;
+    text-align: center;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.mail {
+    margin: 15px;
 }

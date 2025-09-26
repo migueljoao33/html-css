@@ -21,16 +21,20 @@
                 <p>
                     Welcome back. Log in to access your account and configure your environment.
                 </p>
-                <form action="cadastro.html" method="post">
-                    <div class="campo">
-                        <span class="material-symbols-outlined">mail</span>
-                        <input type="email" name="email" id="email" placeholder="your e-mail">
-                        <label for="email">login</label>
+                <form action="login.html" method="post">
+                    <div class="mail">
+                        <div class="campo">
+                            <label for="email"><span class="material-symbols-outlined">mail</span></label>
+                            <input type="email" name="email" id="email" placeholder="your e-mail" required minlength="12" maxlength="48">
+                        </div>
+                        <div class="campo">
+                            <label for="password"><span class="material-symbols-outlined">key_vertical</span></label>
+                            <input type="password" name="password" id="password" placeholder="your password" required minlength="5" maxlength="18">
+                        </div>
                     </div>
                     <div class="campo">
-                        <span class="material-symbols-outlined">key_vertical</span>
-                        <input type="password" name="password" id="password" placeholder="your password">
-                        <label for="password">senha</label>
+                        <input type="submit" value="enviar">
+                        <a href="esqueci.html">esqueci minha senha</a>
                     </div>
                 </form>
             </div>
