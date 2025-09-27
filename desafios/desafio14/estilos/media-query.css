@@ -17,7 +17,6 @@ grandes telas: acima de 1200px
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
-
     p {
     font-size: 1em;
     text-align: center;
@@ -25,6 +24,7 @@ grandes telas: acima de 1200px
 
     .login {
         width: 80vw;
+        height: 280px;
     }
 
     .imagens {
@@ -51,16 +51,17 @@ grandes telas: acima de 1200px
 
     .login {
         width: 950px;
+        height: 280px;
     }
 
     .imagens {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     .formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
 }

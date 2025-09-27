@@ -44,7 +44,7 @@ p {
 
     background-color: white;
     width: 250px;
-    height: 560px;
+    height: 590px;
     border-radius: 20px;
     box-shadow: 0px 0px 12px rgba(23, 23, 23, 0.743);
 
@@ -65,22 +65,74 @@ p {
     text-align: center;
 }
 
+input {
+    background-color: #d3eeed;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-5px);
+    height: 85%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
 input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 80%;
+    width: 90%;
     height: 25px;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     margin: auto;
-    background-color: #2eb7b2;
-    color: white;
+    background-color: #349692;
+    color: whitesmoke;
 }
 
 input[type=submit]:hover {
-    background-color: #2e6260
+    background-color: white;
+    color: #2e6260;
+    transition: .3s ease;
+    border: 1px solid #2eb7b2;
+    transform: translateY(-6px);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
+    color: #2eb7b2;
+    margin-top: 10px;
+    border: 1px solid #2eb7b2;
+}
+
+a:hover {
+    background-color: #2e6260;
+    transition: .3s ease;
+    border: none;
+    color: whitesmoke;
 }
 
 .mail {
     margin: 15px;
+}
+
+label {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo {
+    background-color: #7c4b9d;
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
