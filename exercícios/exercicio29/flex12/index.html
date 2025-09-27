@@ -15,20 +15,48 @@
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
 
             flex-shrink: 1;
             flex-grow: 1;
+
+            /* flex: initial;
+            =
+            flex: 0 1 auto; 
+            
+            flex: none;
+            =
+            flex: 0 0 auto;
+
+            flex: auto;
+            =
+            flex: 1 1 auto;
+
+            flex: 4;
+            =
+            flex: 4 1 auto;
+            o flex-shrink e o flex-basis são padronizados como 1 e auto respectivamente
+            */
         }
         
         #seg-div {
             flex-shrink: 1;
             flex-grow: 2;
+            flex-basis: 200px;
+
+            /* esses três tmb podem ser */
+            /* grow shrink basis */
+            flex: 2 1 200px;
         }
 
         #terc-div {
             flex-shrink: 0;
             flex-grow: 1;
+
+            flex-basis: 150px;
+
+            /* esses três tmb podem ser */
+            /* grow shrink basis */
+            flex: 1 0 150px;
         }
     </style>
 </head>
