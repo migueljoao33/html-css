@@ -23,9 +23,15 @@
         line-height: 1.5em;
     }
 
-    p, h1, h2 {
+    p {
         margin-bottom: 10px;
         text-align: justify;
+    }
+
+    h1, h2 {
+        margin-bottom: 20px;
+        line-height: 1.2em;
+        text-align: left;
     }
 
     header, .normal {
@@ -42,28 +48,38 @@
 
     .text-media {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row wrap-reverse;
+        justify-content: space-between;
     }
 
     .media-text {
         display: flex;
         flex-flow: row-reverse wrap;
+        justify-content: space-between;
     }
 
     .text {
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 500px;
-
-        border: 1px dashed green;
     }
 
     .media {
-        flex-grow: 0;
+        flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 500px;
+    }
 
-        border: 1px dashed red;
+    img {
+        display: block;
+        margin: auto;
+        width: 300px;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+        width: 90%;
     }
     </style>
 </head>
