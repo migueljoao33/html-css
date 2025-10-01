@@ -47,15 +47,23 @@
 
     .media-text {
         display: flex;
-        flex-flow: row wrap-reverse;
+        flex-flow: row-reverse wrap;
     }
 
     .text {
-        flex: 1 1 500px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 500px;
+
+        border: 1px dashed green;
     }
 
     .media {
-        flex: 1 0 500px;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 500px;
+
+        border: 1px dashed red;
     }
     </style>
 </head>
@@ -89,7 +97,7 @@
                     </p>
                 </div>
                 <div class="media">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcQ5WDUUB0o?si=TMJzfIzBM8WMwWCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcQ5WDUUB0o?si=TMJzfIzBM8WMwWCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </article>
         </section>
