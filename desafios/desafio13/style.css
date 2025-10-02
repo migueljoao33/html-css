@@ -46,6 +46,17 @@ img:hover {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.900);
     transition: 200ms ease;
     border: 1px solid white;
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
 }
 
 li {
